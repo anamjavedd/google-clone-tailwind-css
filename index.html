@@ -11,10 +11,10 @@
     </style>
     <title>Google</title>
 </head>
-<body class="flex flex-col p-0 m-0 md:relative md:pb-[97px] w-full">
+<body>
     <div class="text-textColor font-custom text-sm w-full">
         <!-- navbar -->
-        <div class="p-1.5 flex items-center h-[60px] shrink-0 box-border w-full">
+        <header class="p-1.5 flex items-center h-[60px] shrink-0 box-border w-full">
             <!-- 4 elements -->
             <div class="pl-[30px] pr-1 h-12 flex justify-end align-middle box-border whitespace-nowrap w-full">
                 <!-- 2 elements -->
@@ -40,58 +40,60 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- google image -->
-        <div class="flex flex-col mt-12 items-center min-h-[92px] max-h-[290px] box-border shrink-0 w-full">
-            <!-- image -->
-            <div class="max-h-[92px] relative h-full mt-auto">
-                <img class="max-h-full max-w-full object-contain object-center-bottom w-auto h-[92px] overflow-clip" src="./images/google.png" alt="">
+        </header>
+
+        <main>
+            <!-- google image -->
+            <div class="flex flex-col mt-12 items-center min-h-[92px] max-h-[290px] box-border shrink-0 w-full">
+                <!-- image -->
+                <div class="max-h-[92px] relative h-full mt-auto">
+                    <img class="max-h-full max-w-full object-contain object-center-bottom w-auto h-[92px] overflow-clip" src="./images/google.png" alt="">
+                </div>
             </div>
-        </div>
-        <!-- searchbar -->
-        <div class="p-5 max-h-40 box-border shrink-0 w-full">
-            <!-- layout -->
-            <div class="my-0 mx-auto w-auto max-w-[584px] pt-1.5 relative">
-                <!-- bar -->
-                <div class="flex relative z-[3] h-11 border border-[#dfe1e5] rounded-3xl my-0 mx-auto md:w-full w-auto">
-                    <!-- padded bar -->
-                    <div class="pt-[5px] pr-2 pl-[14px] flex w-full max-w-full">
-                        <!-- search icon -->
-                        <div class="flex items-center pr-0 sm:pr-[13px] -mt-[10px] h-[46px] w-[33px]">
-                            <img class="h-4 leading-4 w-4 mt-[3px] inline-block relative text-[#naa0a6]" src="./images/search.png" alt="">
-                        </div>
-                        <!-- text area -->
-                        <div class="flex flex-wrap mt-1.5 w-full">
-                            <input class="leading-[22px] mb-2 overflow-x-hidden resize-none bg-transparent border-none m-0 p-0 break-words outline-none flex text-base md:w-[450px]">
-                        </div>
-                        <!-- 2 icons -->
-                        <div class="flex w-20 -mt-[5px] md:items-stretch md:flex-row h-11 ml-[30px] md:ml-0">
-                            <!-- microphone -->
-                            <div class="flex items-center bg-transparent outline-none md:px-2 py-0 w-10 leading-10">
-                                <img class="w-6 h-6 align-middle" src="./images/image-2.svg" alt="">
+            <!-- searchbar -->
+            <div class="p-5 max-h-40 box-border shrink-0 w-full">
+                <!-- layout -->
+                <div class="my-0 mx-auto w-auto max-w-[584px] pt-1.5 relative">
+                    <!-- bar -->
+                    <div class="flex relative z-[3] h-11 border border-[#dfe1e5] rounded-3xl my-0 mx-auto md:w-full w-auto">
+                        <!-- padded bar -->
+                        <div class="pt-[5px] pr-2 pl-[14px] flex w-full max-w-full">
+                            <!-- search icon -->
+                            <div class="flex items-center pr-0 sm:pr-[13px] -mt-[10px] h-[46px] w-[33px]">
+                                <img class="h-4 leading-4 w-4 mt-[3px] inline-block relative text-[#naa0a6]" src="./images/search.png" alt="">
                             </div>
-                            <!-- lens -->
-                            <div class="flex items-center bg-transparent outline-none md:px-2 py-0 w-10 leading-10">
-                                <img class="w-6 h-6 align-middle overflow-hidden " src="./images/image.svg" alt="">
+                            <!-- text area -->
+                            <div class="flex flex-wrap mt-1.5 w-full">
+                                <input class="leading-[22px] mb-2 overflow-x-hidden resize-none bg-transparent border-none m-0 p-0 break-words outline-none flex text-base md:w-[450px]">
+                            </div>
+                            <!-- 2 icons -->
+                            <div class="flex w-20 -mt-[5px] md:items-stretch md:flex-row h-11 ml-[30px] md:ml-0">
+                                <!-- microphone -->
+                                <div class="flex items-center bg-transparent outline-none md:px-2 py-0 w-10 leading-10">
+                                    <img class="w-6 h-6 align-middle" src="./images/image-2.svg" alt="">
+                                </div>
+                                <!-- lens -->
+                                <div class="flex items-center bg-transparent outline-none md:px-2 py-0 w-10 leading-10">
+                                    <img class="w-6 h-6 align-middle overflow-hidden " src="./images/image.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- 2 buttons -->
-                <div class=" pt-[18px]">
-                    <center>
-                        <!-- button1 -->
-                        <input class="bg-[#f8f9fa] cursor-pointer border border-[#f8f9fa] rounded hover:border-[#dfe1e5]  text-[#3c4043] font-custom my-[11px] mx-1 py-0 px-3 leading-[27px] h-9 min-w-[44px] text-center w-[125px]" type="text" value="Google Search">
-                        <!-- button2 -->
-                        <input class="bg-[#f8f9fa] cursor-pointer border border-[#f8f9fa] rounded hover:border-[#dfe1e5]  text-[#3c4043] font-custom my-[11px] mx-1 py-0 px-3 leading-[27px] h-9 min-w-[54px] text-center w-[140px]" type="text" value="I'm Feeling Lucky">
-                    </center>
+                    <!-- 2 buttons -->
+                    <div class=" pt-[18px]">
+                        <center>
+                            <!-- button1 -->
+                            <input class="bg-[#f8f9fa] cursor-pointer border border-[#f8f9fa] rounded hover:border-[#dfe1e5]  text-[#3c4043] font-custom my-[11px] mx-1 py-0 px-3 leading-[27px] h-9 min-w-[44px] text-center w-[125px]" type="text" value="Google Search">
+                            <!-- button2 -->
+                            <input class="bg-[#f8f9fa] cursor-pointer border border-[#f8f9fa] rounded hover:border-[#dfe1e5]  text-[#3c4043] font-custom my-[11px] mx-1 py-0 px-3 leading-[27px] h-9 min-w-[54px] text-center w-[140px]" type="text" value="I'm Feeling Lucky">
+                        </center>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- blank div -->
-        <!-- <div class="flex-grow flex-shrink-0 box-border block mb-[24px] w-[980px] w-full  h-[100px] md:h-[208px]"></div> -->
+        </main>
+            
         <!-- footer -->
-        <div class="bg-[#f2f2f2] flex flex-col absolute  shrink-0 box-border block left-0 bottom-0 w-full md:fixed ">
+        <footer class="bg-[#f2f2f2] flex flex-col absolute  shrink-0 box-border block left-0 bottom-0 w-full md:fixed ">
             <!-- india -->
             <div class="py-[15px] px-4  md:px-7 border border-t-transparent border-l-transparent border-r-transparent border-b-[#dadce0] text-[15px] text-[#202124] flex flex-wrap justify-between">
                 India
@@ -112,7 +114,7 @@
                     <a href="#" class="text-[#202124] block p-[15px] no-underline cursor-pointer hover:underline">Settings</a>
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
 </body>
 </html>
